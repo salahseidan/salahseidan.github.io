@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://salahseidan.github.io/saos.github.io/sitemap.xml
+Sitemap: https://salahseidan.github.io/sitemap.xml
