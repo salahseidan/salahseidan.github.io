@@ -1,0 +1,7 @@
+social:
+  - platform: LinkedIn
+    url: https://www.linkedin.com/in/yourprofile
+  - platform: Twitter
+    url: https://twitter.com/yourprofile
+  - platform: GitHub
+    url: https://github.com/yourusername
