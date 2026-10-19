@@ -13,4 +13,14 @@
       <image:caption>Photo of Salah Seidan</image:caption>
     </image:image>
   </url>
+  <url>
+    <loc>https://salahseidan.github.io/projects/bowling-vr.html</loc>
+    <lastmod>2026-10-19</lastmod>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://salahseidan.github.io/assets/images/B1.png</image:loc>
+      <image:title>Bowling VR</image:title>
+      <image:caption>Bowling VR project screenshot</image:caption>
+    </image:image>
+  </url>
 </urlset>
