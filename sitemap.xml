@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+>
   <url>
     <loc>https://salahseidan.github.io/</loc>
-    <lastmod>2024-10-25</lastmod>
+    <lastmod>2026-10-19</lastmod>
     <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://salahseidan.github.io/projects.html</loc>
-    <lastmod>2024-10-25</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://salahseidan.github.io/contact.html</loc>
-    <lastmod>2024-10-25</lastmod>
-    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://salahseidan.github.io/assets/images/salah-photo.jpg</image:loc>
+      <image:title>Salah Seidan</image:title>
+      <image:caption>Photo of Salah Seidan</image:caption>
+    </image:image>
   </url>
 </urlset>
