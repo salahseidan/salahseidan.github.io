@@ -1,51 +1,354 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Salah Seidan - Unity Developer, VR Developer, Game Developer. Master's in Computer Science at Paderborn University. Explore my portfolio of game development and VR projects.">
-    <meta name="keywords" content="Salah Seidan, Unity Developer, VR Development, Game Development, Computer Science, Paderborn University, Portfolio">
-    <meta name="author" content="Salah Seidan">
-    <title>Salah Seidan - Unity & VR Developer Portfolio</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Salah Seidan - Unity Developer, VR Developer, Game Developer, Master's student in Computer Science at Paderborn University. Portfolio, research, IT projects, and CV."
+    />
+    <meta
+      name="keywords"
+      content="Salah Seidan, Unity Developer, VR Development, Game Development, Computer Science, Paderborn University, Portfolio, Research, IT Projects, CV"
+    />
+    <meta name="author" content="Salah Seidan" />
+    <title>Salah Seidan - Portfolio</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
     <header>
-        <nav>
-            <h1>My Portfolio</h1>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+      <nav>
+        <h1>Portfolio</h1>
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Toggle navigation"
+          aria-expanded="false"
+        >
+          ☰
+        </button>
+        <ul id="nav-menu">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#research">Research</a></li>
+          <li><a href="#it-projects">IT Projects</a></li>
+          <li><a href="#cv">CV</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
     </header>
 
     <main>
-        <section id="hero">
-            <h2>Hi, I'm Salah Seidan</h2>
-            <p>Unity Developer | VR Developer | Game Developer | Master CS in Paderborn University</p>
-            <div class="hero-buttons">
-                <a href="projects.html" class="btn-primary">View Projects</a>
-                <a href="contact.html" class="btn-secondary">Get in Touch</a>
-            </div>
-        </section>
+      <section id="hero" class="hero-section">
+        <div class="hero-profile">
+          <img
+            src="assets/images/salah-photo.jpg"
+            alt="Photo of Salah Seidan"
+            class="profile-photo"
+          />
 
-        <section id="about">
-            <h2>About Me</h2>
-            <p>I'm a computer science student in Germany with a passion for game development and virtual reality. I'm constantly exploring new technologies and improving my skills. If you want to see my work, check out my Github page below or ask for access to my projects via Email.</p>
-            <div class="skills">
-                <div class="skill-badge">🎮 Unity</div>
-                <div class="skill-badge">🥽 VR Development</div>
-                <div class="skill-badge">💻 C#</div>
-                <div class="skill-badge">🐍 Python</div>
-                <div class="skill-badge">🌐 Web Development</div>
+          <div class="hero-text">
+            <h2>Hi, I'm Salah Seidan</h2>
+            <p>
+              Java Developer | Unity Developer | VR Developer | Game Developer |
+              Master's Student in Computer Science at Paderborn University
+              specialized in Machine Learning
+            </p>
+            <div class="hero-buttons">
+              <a href="#it-projects" class="btn-primary">View IT Projects</a>
+              <a href="#research" class="btn-secondary">View Research</a>
+              <a href="#contact" class="btn-secondary">Get in Touch</a>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
+
+      <section id="about">
+        <h2>About Me</h2>
+        <p>
+          Master's student in Computer Science with a specialization in Data
+          Science and Machine Learning. Several years of hands-on experience as
+          a working student in German IT companies and as a research assistant
+          at the SICP -- Software Innovation Campus Paderborn. Strong interests
+          in Virtual Reality, Unity development, Machine Learning, LLMs, and
+          interactive systems.
+        </p>
+        <div class="skills">
+          <div class="skill-badge">🎮 Unity</div>
+          <div class="skill-badge">🥽 VR Development</div>
+          <div class="skill-badge">🕹️ Game Development</div>
+          <div class="skill-badge">💻 C#</div>
+          <div class="skill-badge">🐍 Python</div>
+          <div class="skill-badge">🌐 Web Development</div>
+          <div class="skill-badge">⚙️ Java</div>
+          <div class="skill-badge">🤖 Machine Learning</div>
+        </div>
+      </section>
+
+      <section id="research">
+        <h2>Research</h2>
+        <p class="section-intro"></p>
+
+        <div class="card-grid">
+          <article class="info-card">
+            <div class="card-icon">📘</div>
+            <h3>
+              Behind the VR Wheel: Investigating the Impact of Assistance
+              Systems on Driver Behavior
+            </h3>
+            <p>
+              Bachelor's Thesis for my Computer Science degree in Paderborn
+              University.
+            </p>
+            <div class="project-tags">
+              <span class="tag">Bachelor Thesis</span>
+              <span class="tag">Paderborn Uni</span>
+            </div>
+            <a
+              href="assets/pdfs/research-paper-1.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              >View PDF</a
+            >
+          </article>
+
+          <article class="info-card">
+            <div class="card-icon">📘</div>
+            <h3>
+              A Systematic Literature Review on the Role of Emotions in Virtual
+              Reality
+            </h3>
+            <p>
+              Seminar project in my Computer Science degree in Paderborn
+              University
+            </p>
+            <div class="project-tags">
+              <span class="tag">VR</span>
+              <span class="tag">Unity</span>
+              <span class="tag">Academic</span>
+              <span class="tag">Seminar</span>
+              <span class="tag">Emotions</span>
+            </div>
+            <a
+              href="assets/pdfs/research-paper-2.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              >View PDF</a
+            >
+          </article>
+
+          <article class="info-card">
+            <div class="card-icon">📘</div>
+            <h3>
+              Does It Hurt Less When the Excluder Is Less Human-Like? A
+              Multi-Study Investigation of Social Exclusion Across Agents and
+              Modalities
+            </h3>
+            <p>
+              Co-author and VR project development for a doctoral thesis in
+              Bielefeld University
+            </p>
+            <div class="project-tags">
+              <span class="tag">VR</span>
+              <span class="tag">Unity</span>
+              <span class="tag">Doctoral</span>
+              <span class="tag">Restaurant VR</span>
+            </div>
+            <a>Paper on ResearchGate</a>
+          </article>
+
+          <article class="info-card">
+            <div class="card-icon">📘</div>
+            <h3>
+              Exploring Ostracism and Rejection with Different Agents in a
+              Virtual Restaurant: A Multimodal Approach
+            </h3>
+            <p>
+              Co-author and VR project development for a doctoral thesis in
+              Bielefeld University
+            </p>
+            <div class="project-tags">
+              <span class="tag">VR</span>
+              <span class="tag">Unity</span>
+              <span class="tag">Doctoral</span>
+              <span class="tag">Restaurant VR</span>
+            </div>
+            <a>Paper on ResearchGate</a>
+          </article>
+
+          <article class="info-card">
+            <div class="card-icon">📘</div>
+            <h3>
+              Change Your Perspective -- A VR Driving Simulator to Enhance
+              Safety Awareness in Public Road Traffic
+            </h3>
+            <p>
+              Research group project for my Master's degree was supervised by
+              Dr. Enes Yigitbas at Paderborn University and presented at the
+              2026 10th International Conference on Intelligent Computing and
+              Virtual and Augmented Reality Simulations (ICVARS).
+            </p>
+            <div class="project-tags">
+              <span class="tag">VR</span>
+              <span class="tag">Unity</span>
+              <span class="tag">Academic</span>
+              <span class="tag">Seminar</span>
+              <span class="tag">Emotions</span>
+            </div>
+            <a
+              href="assets/pdfs/research-paper-2.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              >View PDF</a
+            >
+          </article>
+        </div>
+
+        <p class="helper-text">
+          To add more research files: put PDFs in <strong>assets/pdfs/</strong>,
+          then copy one research card and change the title, description, and PDF
+          link.
+        </p>
+      </section>
+
+      <section id="it-projects">
+        <h2>IT Projects</h2>
+        <p class="section-intro">
+          A section for software, web, Unity, VR, game development, and
+          IT-related projects.
+        </p>
+
+        <div class="project-grid">
+          <article class="project-card">
+            <img
+              src="assets/images/vr-project.svg"
+              alt="VR project screenshot"
+              class="project-image"
+            />
+            <div class="project-content">
+              <h3>VR Project Name</h3>
+              <p>
+                Describe your VR project here. Explain what it does, your role,
+                technologies used, and important features.
+              </p>
+              <div class="project-tags">
+                <span class="tag">Unity</span>
+                <span class="tag">VR</span>
+                <span class="tag">C#</span>
+              </div>
+              <a href="#" target="_blank" rel="noopener noreferrer"
+                >View Project</a
+              >
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img
+              src="assets/images/web-project.svg"
+              alt="Web project screenshot"
+              class="project-image"
+            />
+            <div class="project-content">
+              <h3>Web / IT Project Name</h3>
+              <p>
+                Add a description of your IT or web project. Mention
+                frontend/backend tools, database, APIs, and features.
+              </p>
+              <div class="project-tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JavaScript</span>
+              </div>
+              <a href="#" target="_blank" rel="noopener noreferrer"
+                >View Project</a
+              >
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img
+              src="assets/images/project-placeholder.svg"
+              alt="Project preview"
+              class="project-image"
+            />
+            <div class="project-content">
+              <h3>Another Project</h3>
+              <p>
+                Copy this card to add more projects. Replace the image, title,
+                description, tags, and link.
+              </p>
+              <div class="project-tags">
+                <span class="tag">Python</span>
+                <span class="tag">Software</span>
+                <span class="tag">Project</span>
+              </div>
+              <a href="#" target="_blank" rel="noopener noreferrer"
+                >View Project</a
+              >
+            </div>
+          </article>
+        </div>
+
+        <p class="helper-text">
+          To add project photos: put images in
+          <strong>assets/images/</strong> and update the image path in each
+          project card.
+        </p>
+      </section>
+
+      <section id="cv">
+        <h2>CV</h2>
+        <div class="cv-box">
+          <div>
+            <h3>My Curriculum Vitae</h3>
+            <p>You can view or download my CV as a PDF file.</p>
+          </div>
+          <a
+            href="assets/pdfs/salah-seidan-cv.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn-primary"
+            >View / Download CV</a
+          >
+        </div>
+        <p class="helper-text">
+          Upload your CV to <strong>assets/pdfs/salah-seidan-cv.pdf</strong>, or
+          change this link to your real PDF file name.
+        </p>
+      </section>
+
+      <section id="contact">
+        <h2>Contact</h2>
+        <p class="section-intro">
+          Contact me for collaborations, research discussions, project access,
+          or professional opportunities.
+        </p>
+        <div class="social-links">
+          <a href="mailto:your.email@example.com">Email</a>
+          <a
+            href="https://github.com/your-github-username"
+            target="_blank"
+            rel="noopener noreferrer"
+            >GitHub</a
+          >
+          <a
+            href="https://www.linkedin.com/in/your-linkedin-username/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >LinkedIn</a
+          >
+        </div>
+        <p>
+          Replace the email, GitHub, and LinkedIn URLs with your real
+          information.
+        </p>
+      </section>
     </main>
 
     <footer>
-        <p>&copy; 2025 Salah Seidan. All rights reserved.</p>
+      <p>&copy; 2025 Salah Seidan. All rights reserved.</p>
     </footer>
-</body>
+
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
